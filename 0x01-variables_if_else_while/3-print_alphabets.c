@@ -10,19 +10,21 @@ int main(void)
 
 	int c;
 
-	for (d = 65; d <= 90; d++)
+	char p;
+
+	char e;
+
+	for (d = 97; d <= 122; d++)
 	{
-		char p = (char)d;
+		p = (char)d;
 
 		putchar(p);
-
 	}
-	for (c = 97; c <=122; c++)
+	for (c = 65; c <= 90; c++)
 	{
-		char e = (char)c;
+		e = (char)c;
 
 		putchar(e);
-
 	}
 	putchar('\n');
 
