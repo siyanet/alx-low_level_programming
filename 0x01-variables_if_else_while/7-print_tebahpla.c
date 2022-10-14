@@ -8,9 +8,11 @@ int main(void)
 {
 	int d;
 
-	for (d = 122; d <= 97; d++)
+	char c;
+
+	for (d = 97; d <= 122; d++)
 	{
-		char c = (char)d;
+		c = (char)d;
 
 		putchar(c);
 
