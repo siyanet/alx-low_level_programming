@@ -12,7 +12,7 @@ int main(void)
 
 	for (m = 0; m < 10; m++)
 	{
-		for (j = m+1; j < 10; j++)
+		for (j = m + 1; j < 10; j++)
 		{
 		putchar('0' + m);
 
@@ -24,7 +24,7 @@ int main(void)
 		}
 		putchar(',');
 
-		putchar('\t');
+		putchar(' ');
 
 	}
 	}
