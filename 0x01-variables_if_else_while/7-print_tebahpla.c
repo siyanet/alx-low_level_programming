@@ -10,7 +10,7 @@ int main(void)
 
 	char c;
 
-	for (d = 97; d <= 122; d++)
+	for (d = 122; d >= 97; d--)
 	{
 		c = (char)d;
 
