@@ -8,11 +8,20 @@ int main(void)
 {
 	int d;
 
+	int c;
+
 	for (d = 65; d <= 90; d++)
 	{
-		char c = (char)d;
+		char p = (char)d;
 
-		putchar(c);
+		putchar(p);
+
+	}
+	for (c = 97; c <=122; c++)
+	{
+		char e = (char)c;
+
+		putchar(e);
 
 	}
 	putchar('\n');
