@@ -10,7 +10,7 @@ int main(void)
 
 	for (d = 97; d <= 122; d++)
 	{
-		if(d == 101 || d == 113)
+		if (d == 101 || d == 113)
 		{
 			continue;
 		}
@@ -19,7 +19,6 @@ int main(void)
 		char c = (char)d;
 
 		putchar(c);
-		
 		}
 	}
 	putchar('\n');

@@ -8,7 +8,7 @@ int main(void)
 {
 	int d;
 
-	for (d = 65; d <= 90; d++)
+	for (d = 122; d <= 97; d++)
 	{
 		char c = (char)d;
 
