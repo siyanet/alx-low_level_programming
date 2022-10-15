@@ -18,20 +18,19 @@ int main(void)
 		{
 			for (i = j + 1; i < 10; i++)
 			{
-		putchar('0' + m);
+				putchar('0' + m);
 
-		putchar('0' + j);
+				putchar('0' + j);
 
-		putchar('0' + i);
+				putchar('0' + i);
+				if (m == 7 && j == 8 && i == 9)
+				{
+					break;
 
-		if (m == 7 && j == 8 && i == 9)
-		{
-			break;
+				}
+				putchar(',');
 
-		}
-		putchar(',');
-
-		putchar(' ');
+				putchar(' ');
 
 			}
 		}
