@@ -27,13 +27,16 @@ int main(void)
 		if (m == 7 && j == 8 && i == 9)
 		{
 			break;
+
 		}
 		putchar(',');
 
 		putchar(' ');
 
-	}
+			}
+		}
 	}
 	putchar('\n');
+
 	return (0);
 }
