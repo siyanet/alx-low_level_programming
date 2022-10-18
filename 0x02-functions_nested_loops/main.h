@@ -1,4 +1,6 @@
 #include <stdio>
 #include <stdlib>
 
-int _putchar (void);
+void _putchar (char);
+
+void print_alphabet(void);
