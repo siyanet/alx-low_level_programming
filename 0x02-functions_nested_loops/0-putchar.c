@@ -1,10 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-/**
-   * main - Entry
-   * Return  0
-   */
-int main(void)
+int _putchar(void)
 {
 	putchar('_');
 
