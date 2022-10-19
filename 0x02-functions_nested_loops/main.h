@@ -1,6 +1,8 @@
-#include <stdio>
-#include <stdlib>
+#ifndef MAIN_H
+#define MAIN_H
 
-void _putchar (char);
+int _putchar (char c);
 
 void print_alphabet(void);
+
+#endif
