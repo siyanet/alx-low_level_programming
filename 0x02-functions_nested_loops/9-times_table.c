@@ -13,7 +13,7 @@ void times_table(void)
 		{
 			k = i * j;
 
-			if (i >= 2)
+			if (j >= 2 && k <=9)
 			{
 				_putchar(' ');
 			}
@@ -27,7 +27,7 @@ void times_table(void)
 
 				_putchar (k % 10 + '0');
 			}
-			if(j != 9)
+			if (j != 9)
 			{
 				_putchar(',');
 
