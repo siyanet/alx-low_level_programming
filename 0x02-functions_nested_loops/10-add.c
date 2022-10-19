@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
    *add -prints sum of two numbers
    *@a: is added
    *@b: is added
