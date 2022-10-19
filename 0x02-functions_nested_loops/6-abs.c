@@ -2,6 +2,7 @@
 
 /**
   *_abs -print the absolute value of anumber
+  *@n: the intger to be computed
   *Return: absolute number
   */
 int _abs(int n)
@@ -10,7 +11,7 @@ int _abs(int n)
 	{
 		return (n);
 	}
-	if (n < 0)
+	else
 	{
 		return (-n);
 	}
