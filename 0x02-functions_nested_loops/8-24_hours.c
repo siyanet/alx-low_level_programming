@@ -15,15 +15,15 @@ void jack_bauer(void)
 			{
 				for (l = 0; l <= 9; l++)
 				{
-					_putchar(l);
+					_putchar(l + '0');
 					
-					_putchar(k);
+					_putchar(k + '0');
 
 					_putchar(':');
 
-					_putchar(j);
+					_putchar(j + '0');
 
-					_putchar(i);
+					_putchar(i + '0');
 
 					_putchar('\n');
 
