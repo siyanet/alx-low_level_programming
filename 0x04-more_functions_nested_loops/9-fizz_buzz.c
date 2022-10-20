@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
   *main -prints 1 to 100 and fizz and buzz and fizzbuzz
@@ -22,7 +21,7 @@ int main(void)
 			printf("Buzz");
 
 		}
-		else if (i % 5 == 0 && i % 3  == 0)
+		else if (i % 15 == 0)
 		{
 			printf("FizzBuzz");
 
