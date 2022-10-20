@@ -1,4 +1,4 @@
-#inlcude "main.h"
+#include "main.h"
 
 /**
   *_isupper -prints if the letter is upper or not
