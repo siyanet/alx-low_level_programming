@@ -29,10 +29,11 @@ int main(void)
 		}
 		else
 		{
-			_putchar(i + '0');
+			printf("%i", i);
 
 		}
+		printf(" ");
+
 	}
 	return (0);
-
 }
