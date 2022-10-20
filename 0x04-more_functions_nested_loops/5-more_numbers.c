@@ -18,12 +18,11 @@ void more_numbers(void)
 			}
 			else
 			{
-				_putchar('1');
+				_putchar(1 + '0');
 
 				_putchar(j % 10 + '0');
 
 			}
-
 		}
 		_putchar('\n');
 
