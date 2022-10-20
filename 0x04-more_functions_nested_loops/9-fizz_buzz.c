@@ -1,10 +1,8 @@
 #include <stdio.h>
-
 /**
   *main -prints 1 to 100 and fizz and buzz and fizzbuzz
   *Return: always 0
   */
-
 int main(void)
 {
 	int i;
@@ -31,10 +29,12 @@ int main(void)
 			printf("%i", i);
 
 		}
-		printf(" ");
+		if (i != 100)
+		{
+			printf(" ");
 
+		}
+		printf("\n");
+		return (0);
 	}
-	printf("\n");
-
-	return (0);
 }
