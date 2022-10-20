@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-  *mul prints the multiplication of two numbers
+  *mul - prints multiplication
   *@a: the first number
   *@b: the seconde number
   *Return: result
