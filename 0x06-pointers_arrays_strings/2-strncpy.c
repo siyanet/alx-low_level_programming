@@ -1,21 +1,17 @@
 #include "main.h"
 
 /**
-  *_strcat - concatnate two strings
+  *_strncpy - copy string
   *@dest: destination string
   *@src: source string
+  *@n: number of source string
   *Return: pointer to destination string
   */
 char *_strncpy(char *dest, char *src, int n)
 {
 	char *p = dest;
 
-	while (*dest != '\0')
-	{
-		dest++;
-
-	}
-	while (*src != '\0')
+	while (*src != '\0' && n--)
 	{
 		*dest = *src;
 
