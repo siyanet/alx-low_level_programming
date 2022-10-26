@@ -14,10 +14,15 @@ char *string_toupper(char *s)
 		s++;
 
 	}
-	else if (*s != '\0' && *s >= 97 && *s <= 122)
+	else if (*s != '\0' && (*s >= 97 && *s <= 122))
 	{
 		*s = *s - 32;
 
+		s++;
+
+	}
+	else if (*s != '\0')
+	{
 		s++;
 
 	}
