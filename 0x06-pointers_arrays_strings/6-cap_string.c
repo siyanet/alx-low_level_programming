@@ -39,6 +39,7 @@ char *cap_string(char *s)
 					s++;
 
 				}
+			}
 			else if (*s != '\0' && (*s >= 'a'  && *s <= 'z'))
 			{
 				*s = *s - 32;
