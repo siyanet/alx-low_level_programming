@@ -9,22 +9,19 @@ char *string_toupper(char *s)
 {
 	char *s1 = s;
 
-	if (*s != '\0' && (*s >= 65 && *s <= 90))
+	while (*s != '\0')
 	{
-		s++;
+		if (*s >= 'a'  && *s <= 'z')
+		{
+			*s = *s - 32;
 
-	}
-	else if (*s != '\0' && (*s >= 97 && *s <= 122))
-	{
-		*s = *s - 32;
+			s++;
 
-		s++;
-
-	}
-	else if (*s != '\0')
-	{
-		s++;
-
+		}
+		else
+		{
+			s++;
+		}
 	}
 	return (s1);
 }
