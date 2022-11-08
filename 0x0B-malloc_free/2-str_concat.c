@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- *str-concat -concatnate string
+ *str_concat -concatnate string
  *@s1: string one
  *@s2: string two
  *Return: pointer
