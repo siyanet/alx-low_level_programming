@@ -25,7 +25,7 @@ char *argstostr(int ac, char **av)
 		{
 			len++;
 		}
-		len ++;
+		len++;
 	}
 	str = (char *)malloc(sizeof(char) * (len + 1));
 	if (str == NULL)
@@ -34,7 +34,7 @@ char *argstostr(int ac, char **av)
 	}
 	for (i = 0, j = 0; i < ac && j < len; i++)
 	{
-		s = av [i];
+		s = av[i];
 		k = 0;
 
 		while (s[k])
