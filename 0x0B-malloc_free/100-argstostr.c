@@ -32,7 +32,7 @@ char *argstostr(int ac, char **av)
 	{
 		return (NULL);
 	}
-	for (i = 0; j = 0; i < ac && j < len; i++)
+	for (i = 0, j = 0; i < ac && j < len; i++)
 	{
 		s = av [i];
 		k = 0;
