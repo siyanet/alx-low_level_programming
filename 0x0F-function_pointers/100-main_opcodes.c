@@ -5,7 +5,6 @@
   *print_opcodes -print opcode
   *@a: adderess of main function
   *@n: number of bytes to print
-  *Return: void
   */
 void print_opcodes(char *a, int n)
 {
@@ -16,14 +15,19 @@ void print_opcodes(char *a, int n)
 		printf("%.2hhx", a[i]);
 
 		if (i < n -1)
+		{
 			printf(" ");
+		}
 	}
 	printf("\n");
+
 }
+
 /**
   *main - print opcodes
   *@argc: number of arguments
   *@argv: array of pointers
+  *Return: always 0
   */
 int main(int argc, char **argv)
 {
@@ -34,7 +38,7 @@ int main(int argc, char **argv)
 		printf("Error\n");
 		exit(1);
 	}
-	n = atoi(argv[i]);
+	n = atoi(argv[1]);
 	if (n < 0)
 	{
 		printf("Error\n");
@@ -43,4 +47,3 @@ int main(int argc, char **argv)
 	print_opcodes((char *)&main, n);
 	return (0);
 }
-
