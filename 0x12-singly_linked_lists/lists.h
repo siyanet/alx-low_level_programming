@@ -3,9 +3,11 @@
 
 /**
   *struct list_s -singly linked list
-  *@str: string
-  *@len: length of string
-  *@next: points to next node 
+  *@str: string - (malloc'ed string)
+  *@len: length of the string
+  *@next: points to next node
+  *
+  *Descriptio: singly linked list node structure
   */
 typedef struct list_s
 {
