@@ -1,5 +1,6 @@
 #include "lists.h"
 #include <string.h>
+#include <stdlib.h>
 /**
   *add_node -add new node to beginning of list_t
   *@head: head of list_t
